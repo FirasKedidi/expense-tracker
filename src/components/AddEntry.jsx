@@ -12,6 +12,8 @@ const AddEntry = () => {
       description,
       amount}
     addEntry(newEntry)
+    setAmount('')
+    setDescription('')
   }
   return (
     <div className='border border-info rounded p-4 mt-4'>
